@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/* Box Sizing Reset */
+html {
+  box-sizing: border-box;
+}
+/* *, *:before, *:after {
+  box-sizing: inherit;
+
+} */
+ /* TABLE OF CONTENTS: 
+----------------------------------------------------------------
+# Generic (CALLED IN NORMALIZE.CSS)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+
+/* ---------------elements----------- */
+body{ background: linear-gradient(
+    to bottom,
+    rgb(209, 242, 252) 0%,
+    rgb(7, 48, 61) 100%
+  );}
+ 
+  h1{
+    position: relative;
+    text-shadow: 1px 2px 4px rgb(174, 84, 84);
+  }
+  h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 3em;
+    height: 0.1em;
+    background: white;
+    box-shadow: 1px 2px 4px #ccc;}
+fieldset{
+    border-left: none;
+    border-bottom: none;
+    border-right: none;    
+}
+.input-width{
+  width: 100%;
+  border-radius: 0.3rem;
+}
+#submit{
+  background-color: green;
+}
+/* #reset{
+  background-color: rgba(0, 128, 0, 0.056);
+} */
+/* ------------------main---------- */
+.all-form{
+  width: 480px;
+  max-width: 480px;
+  margin: 5% 0% auto 33%;
+  background-color: rgba(238, 251, 246, 0.412)!important;
+  padding: 1rem;
+  border: auto;
+  position: abso;
+}
+.line-break{
+  width: 100%;
+}
+.experience-wrapper{
+  margin-bottom: 2rem;
+}
+/* .hr-lines:before{
+  content:"1 ";
+  display: block;
+  background: lightblue;
+  border-radius: 50%;
+  width: 1.7rem;
+  height: 1.7rem;
+  background: rgb(22, 150, 32);
+} */
+#account-info {
+  display: flex; 
+}
+.acct-info-wrapper{
+  margin-bottom: 2rem;
+}
+.comment-width{
+  width: 99%;
+}
+
+#num1{
+  display: block;
+  background: lightblue;
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.7rem;
+  /* padding: 1rem; */
+  text-align: center;
+  padding-top: 0.2rem;
+  background: rgb(22, 150, 32);
+  margin-right: 0.4rem;
+  line-height: 1.6rem;
+position: relative;
+bottom: 0.5rem;
+
+}
+
+
+/* .hr-lines:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+} */
+/* .hr-lines{
+  position: relative;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+ */
+
+ .skills-wrapper{
+  margin-bottom: 2rem;
+ }
+.other-wrapper{
+  margin-bottom: 2rem;
+
+}
